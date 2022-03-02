@@ -1,0 +1,27 @@
+.resume-download-wrapper {
+    padding: 1vw 2vw;
+    background-color: #444;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 30%;
+    margin: 5vw auto;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Poppins-SemiBold";
+}
+
+.resume-download-wrapper:hover {
+    background-color: #aaa;
+}
+
+@media print {
+    .resume-download-wrapper {
+        display: none;
+        margin: 0%;
+    }
+}
+
+@page { 
+    size:110vh;  
+    margin: 0mm;
+ }
